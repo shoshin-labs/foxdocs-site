@@ -9,8 +9,8 @@
   --green: #00e676;
   --green-dim: #12a35a;
   --green-glow: rgba(0, 230, 118, 0.28);
-  --font: "Syne", "Avenir Next", "Segoe UI", sans-serif;
-  --body: "Figtree", "Helvetica Neue", sans-serif;
+  --font: "Plus Jakarta Sans", Arial, sans-serif;
+  --body: "Plus Jakarta Sans", Arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
   --page: min(1120px, calc(100% - 2.5rem));
   --wide: min(1280px, calc(100% - 2.5rem));
@@ -107,8 +107,8 @@ button, input, textarea { font: inherit; color: inherit; }
   font-family: var(--mono); font-size: 0.72rem;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--green);
 }
-h1, h2, h3 { font-family: var(--font); font-weight: 750; letter-spacing: -0.045em; line-height: 0.98; }
-h1 { font-size: clamp(3.1rem, 7vw, 5.4rem); margin: 0.35em 0 0.4em; }
+h1, h2, h3 { font-family: var(--font); font-weight: 700; letter-spacing: -0.022em; line-height: 1.1; }
+h1 { font-size: clamp(2.6rem, 5.5vw, 4rem); margin: 0.35em 0 0.4em; }
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin: 0 0 0.45em; }
 h3 { font-size: 1.35rem; margin: 0 0 0.35em; }
 .lede { color: var(--mute); font-size: 1.15rem; max-width: 34rem; }
