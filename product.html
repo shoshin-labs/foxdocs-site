@@ -4,222 +4,52 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Product · Foxdocs</title>
-  <meta name="description" content="Reviews with named sub-agents, improvement plans, overhauls, playbooks, knowledge, staff versus seats, and classified export.">
+  <meta name="description" content="Import, overhaul, improvement plans, reviews, versions, publish, distribute.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,10..72,400;0,10..72,500;0,10..72,600;1,10..72,400;1,10..72,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <div class="grain" aria-hidden="true"></div>
-
-  <header class="mast">
-    <div class="wrap mast-bar">
-      <a class="mark" href="index.html">
-        <svg class="mark-fox" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <circle cx="16" cy="16" r="14.25" fill="none" stroke="currentColor" stroke-width="1.25"/>
-          <path fill="currentColor" d="M8.2 18.2 12.1 7.8 16 14.2 19.9 7.8 23.8 18.2c-.8 6.2-10.8 6.2-15.6 0Z"/>
-          <path fill="#f4f8f5" d="M13.4 18.4 16 21.2l2.6-2.8-1.1 4.2h-3z"/>
-        </svg>
-        <span class="mark-word">foxdocs</span>
-        <span class="mark-beta">BETA</span>
-      </a>
-      <input type="checkbox" id="nav-on" class="nav-check" title="Menu">
-      <label class="nav-burger" for="nav-on">
-        <span class="nav-burger-label">Menu</span>
-        <span class="nav-burger-icon" aria-hidden="true"></span>
-      </label>
-      <nav id="primary-nav" class="nav" aria-label="Primary">
-        <a href="product.html" aria-current="page">Product</a>
-        <a href="how-it-works.html">How it works</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="examples/harbor-care.html">Example</a>
-        <a href="https://app.foxdocs.com" rel="noopener noreferrer">Sign in</a>
-        <a class="btn" href="book-a-demo.html">Book a demo</a>
-      </nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="wide mast-bar">
+    <a class="mark" href="index.html"><svg class="mark-fox" viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16 3c4 5 8.5 6 12 5-1 6-4 11-12 21C8 19 5 14 4 8c3.5 1 8 .2 12-5Z"/>
+    </svg><span class="mark-word">foxdocs</span></a>
+    <input type="checkbox" id="nav-on" class="nav-check">
+    <label class="nav-burger" for="nav-on">Menu</label>
+    <nav id="primary-nav" class="nav" aria-label="Primary">
+      <a href="product.html" aria-current="page">Product</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="examples/harbor-care.html">Example</a>
+      <a href="https://app.foxdocs.com">Sign in</a>
+      <a class="btn btn-green" href="book-a-demo.html">Book a demo</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="kicker">Product</p>
+      <h1>The work after you import the file.</h1>
+      <p class="lede">Foxdocs is not a blank-page writer. You bring a document in, then you put it through the loop until you can stand behind it.</p>
     </div>
-  </header>
-
-  <main id="main">
-    <header class="page-hero">
-      <div class="wrap">
-        <p class="crumb"><a href="index.html">Home</a> · Product</p>
-        <p class="kicker rise d1">The register, not a chat window</p>
-        <h1 class="rise d2">Named reviewers. Plans you approve. A file you can defend.</h1>
-        <p class="lede rise d3">Foxdocs is a policy and compliance document platform. The app is at app.foxdocs.com, and it is in BETA. Org switcher and dark mode live there. This page is the public map of what it does.</p>
-      </div>
-    </header>
-
-    <section class="band" id="reviews" aria-labelledby="reviews-title">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Reviews</p>
-          <h2 id="reviews-title">Four sub-agents, not one vague score.</h2>
-          <p class="pull">Integrity first. Language second.</p>
-        </div>
-        <div class="copy">
-          <p>Start Analysis runs a review workflow. Organisation settings let you pick which sub-agents are on by default. They sit in two groups.</p>
-          <div class="agent-rail" style="margin-top:1.6rem">
-            <article>
-              <h3>Fidelity</h3>
-              <p>Facts and law. Factual accuracy and legal compliance.</p>
-            </article>
-            <article>
-              <h3>Completeness</h3>
-              <p>Gaps and structure. Missing information or incomplete sections.</p>
-            </article>
-            <article>
-              <h3>Mechanics</h3>
-              <p>Language, spelling, and readability.</p>
-            </article>
-            <article>
-              <h3>Style</h3>
-              <p>Formatting, tone, and consistency with the organisation.</p>
-            </article>
-          </div>
-          <p style="margin-top:1.4rem">The document keeps a score (for example 8.9/10). That mark is a reading of this draft, not a trophy for the company.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="plans" aria-labelledby="plans-title" style="padding-top:0">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Improvement plans</p>
-          <h2 id="plans-title">Scope it. Then accept or reject, line by line.</h2>
-        </div>
-        <div class="copy">
-          <p>Improve document generates a structured plan before any change is applied. You set the scope. Proposals come back as discrete edits, with a reason, often tied to a source or a duty.</p>
-          <p>Accept the ones that belong. Reject the rest. Applied proposals save as a new version. Remaining ideas from an older plan do not sneak onto the new version. You start a fresh plan if you want another pass.</p>
-          <aside class="folio" style="margin-top:1.4rem;box-shadow:6px 6px 0 var(--pine)" aria-label="Improvement plan preview">
-            <p class="meta">Applied proposals · saved as version 2</p>
-            <p style="font-family:var(--font-display);font-size:1.2rem;margin:0.6rem 0 0.4rem">Data Breach Notification Procedure</p>
-            <p class="meta">Updated procedure steps · placed under Incident Response Playbook</p>
-            <p style="margin-top:0.8rem;color:var(--ink-soft);font-size:0.95rem">A proposal is a change you can read, not a silent rewrite.</p>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="overhauls" aria-labelledby="overhauls-title" style="padding-top:0">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Overhauls</p>
-          <h2 id="overhauls-title">When the draft is too far gone.</h2>
-        </div>
-        <div class="copy">
-          <p>Overhaul preserves your content and reorganises the document against its document type template. Use it when you need a full rewrite, not another handful of proposals.</p>
-          <p>Overhauls, Improvement Plans, and Reviews sit under Documents in the app. They are three tools on the same file, not three products.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="playbooks" aria-labelledby="playbooks-title">
-      <div class="wrap spread split-flip" style="grid-template-columns: 0.62fr 0.38fr;">
-        <div class="copy">
-          <p class="kicker">Playbooks</p>
-          <h2 id="playbooks-title">A procedure people can actually follow.</h2>
-          <p>Playbooks are a flowchart builder. A policy can say what should happen. A playbook shows the forks: who is called, what is recorded, when it escalates.</p>
-          <p>Publish a playbook when the steps are ready. It lives next to the register, not inside a slide deck.</p>
-        </div>
-        <div class="spread-visual" aria-hidden="true">
-          <div class="flow">
-            <div class="flow-node"><strong>Start</strong>Concern raised</div>
-            <div class="flow-join"></div>
-            <div class="flow-node"><strong>Then</strong>Duty manager reviews the same day</div>
-            <div class="flow-join"></div>
-            <div class="flow-branch">
-              <div class="flow-node"><strong>If local</strong>Record and monitor</div>
-              <div class="flow-node"><strong>If not</strong>Refer onwards</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="knowledge" aria-labelledby="knowledge-title" style="padding-top:0">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Knowledge</p>
-          <h2 id="knowledge-title">Crawl the sources you already trust.</h2>
-        </div>
-        <div class="copy">
-          <p>Knowledge is URL crawl and sync. You create a source, add URLs, and keep it active. Reviews can then work against a custom knowledge base, not a generic guess.</p>
-          <p>Business includes a custom knowledge base and regulation horizon scanning. Policy Co-Pilot sits on that same stack, for staff who need the policy in the moment.</p>
-          <ul class="biblio" style="margin-top:1.4rem">
-            <li><span class="src">Source</span><span>A statute, handbook, or internal standard you name</span><span class="meta">Active</span></li>
-            <li><span class="src">URLs</span><span>Pages you add, then sync</span><span class="meta">Crawl</span></li>
-            <li><span class="src">Shared</span><span>Some sources can be marked shared across the org</span><span class="meta">Org</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="staff" aria-labelledby="staff-title">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Staff and seats</p>
-          <h2 id="staff-title">Employees are not users.</h2>
-        </div>
-        <div>
-          <div class="versus">
-            <div>
-              <h3>Users</h3>
-              <p>People who sign in to the app. Seats. They run reviews, plans, overhauls, and publish.</p>
-            </div>
-            <div>
-              <h3>Employees</h3>
-              <p>The staff register. Name, email, position, alerts. Import CSV or add one by one. They receive distributions and acknowledge policies. They do not need a seat.</p>
-            </div>
-          </div>
-          <p class="copy" style="margin-top:1.2rem">Growth includes 5 seats and 30 staff. Business includes 10 seats and 150 staff. Enterprise is unlimited, by arrangement. See <a href="pricing.html">pricing</a>.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="export" aria-labelledby="export-title" style="padding-top:0">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">Publish, classify, export</p>
-          <h2 id="export-title">A version you can put on a file.</h2>
-        </div>
-        <div class="copy">
-          <p>Each document has tabs: Content, Activity, Versions, Timeline, Distributions, Shares, Export.</p>
-          <p>Publish a version. Classification sits on that published copy. Shares cover people you invite. Export is the branded pack for audit: Excel for a detailed change report (version history, section-level changes, approval status) and PDF for an executive summary with the version timeline.</p>
-          <p>Chat to Edit is there when you want a focused editing conversation on this version, without leaving the document.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="close">
-      <div class="wrap">
-        <div class="close-box">
-          <div>
-            <p class="kicker">Walk it</p>
-            <h2>See the five steps in order.</h2>
-            <p class="lede">The loop page uses the same UI language as the app.</p>
-          </div>
-          <div class="actions" style="margin-top:0">
-            <a class="btn" href="how-it-works.html">How it works</a>
-            <a class="btn btn-line" href="book-a-demo.html">Book a demo</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="foot">
-    <div class="wrap foot-bar">
-      <div>© 2026 Foxdocs Limited · Jersey</div>
-      <div class="foot-links">
-        <a href="https://www.foxdocs.com/privacy" rel="noopener noreferrer">Privacy</a>
-        <a href="https://www.foxdocs.com/cookies" rel="noopener noreferrer">Cookies</a>
-        <a href="mailto:contact@foxdocs.com">contact@foxdocs.com</a>
-      </div>
+  </section>
+  <section>
+    <div class="wrap stack">
+      <article class="block"><p class="kicker">Import</p><h2>Start with the policy you already have.</h2><p>Upload the file. Analyse it if you want a first read. The register holds the original so later versions have somewhere to come from.</p></article>
+      <article class="block"><p class="kicker">Overhaul</p><h2>Rewrite the whole thing when the draft is not fit.</h2><p>An overhaul is a tracked job. You see the run and the result beside the file you brought in.</p></article>
+      <article class="block"><p class="kicker">Improvement plan</p><h2>List the changes. Then run them.</h2><p>Create the plan, accept or reject each proposal, then execute. Nothing lands unless you said yes.</p></article>
+      <article class="block"><p class="kicker">Reviews</p><h2>Come back on a cycle. Each pass is a version.</h2><p>Fidelity, completeness, mechanics, style. Periodic reviews check it still complies. They do not silently edit the live file. They cut v2, v3, v4.</p></article>
+      <article class="block"><p class="kicker">Publish</p><h2>The signed-off version is the one people see.</h2><p>Classification, branded export, timeline, activity. The published view is read-only.</p></article>
+      <article class="block"><p class="kicker">Distribute</p><h2>Send it to the team, not just the editors.</h2><p>Employees are a separate register from app users. Acknowledgements match the org, not the seat count.</p></article>
     </div>
-  </footer>
-  <script src="js/site.js"></script>
+  </section>
+</main>
+<footer><div class="wide foot"><div>© 2026 Foxdocs Limited · Jersey</div><div><a href="https://www.foxdocs.com/privacy">Privacy</a><a href="https://www.foxdocs.com/cookies">Cookies</a></div></div></footer>
+<script src="js/site.js"></script>
 </body>
 </html>

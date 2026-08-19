@@ -4,257 +4,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Example: Harbor Care · Foxdocs</title>
-  <meta name="description" content="A fictional multi-site example: Harbor Care shares one safeguarding policy across three homes, from review to acknowledgement.">
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <meta name="description" content="Labelled example of import, overhaul, plan, review, publish, distribute across sites.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,10..72,400;0,10..72,500;0,10..72,600;1,10..72,400;1,10..72,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/site.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <div class="grain" aria-hidden="true"></div>
-
-  <header class="mast">
-    <div class="wrap mast-bar">
-      <a class="mark" href="../index.html">
-        <svg class="mark-fox" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <circle cx="16" cy="16" r="14.25" fill="none" stroke="currentColor" stroke-width="1.25"/>
-          <path fill="currentColor" d="M8.2 18.2 12.1 7.8 16 14.2 19.9 7.8 23.8 18.2c-.8 6.2-10.8 6.2-15.6 0Z"/>
-          <path fill="#f4f8f5" d="M13.4 18.4 16 21.2l2.6-2.8-1.1 4.2h-3z"/>
-        </svg>
-        <span class="mark-word">foxdocs</span>
-        <span class="mark-beta">BETA</span>
-      </a>
-      <input type="checkbox" id="nav-on" class="nav-check" title="Menu">
-      <label class="nav-burger" for="nav-on">
-        <span class="nav-burger-label">Menu</span>
-        <span class="nav-burger-icon" aria-hidden="true"></span>
-      </label>
-      <nav id="primary-nav" class="nav" aria-label="Primary">
-        <a href="../product.html">Product</a>
-        <a href="../how-it-works.html">How it works</a>
-        <a href="../pricing.html">Pricing</a>
-        <a href="harbor-care.html" aria-current="page">Example</a>
-        <a href="https://app.foxdocs.com" rel="noopener noreferrer">Sign in</a>
-        <a class="btn" href="../book-a-demo.html">Book a demo</a>
-      </nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="wide mast-bar">
+    <a class="mark" href="../index.html"><svg class="mark-fox" viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16 3c4 5 8.5 6 12 5-1 6-4 11-12 21C8 19 5 14 4 8c3.5 1 8 .2 12-5Z"/>
+    </svg><span class="mark-word">foxdocs</span></a>
+    <input type="checkbox" id="nav-on" class="nav-check">
+    <label class="nav-burger" for="nav-on">Menu</label>
+    <nav id="primary-nav" class="nav" aria-label="Primary">
+      <a href="../product.html">Product</a>
+      <a href="../how-it-works.html">How it works</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../examples/harbor-care.html" aria-current="page">Example</a>
+      <a href="https://app.foxdocs.com">Sign in</a>
+      <a class="btn btn-green" href="../book-a-demo.html">Book a demo</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="note">Example · not a real customer</p>
+      <h1>Harbor Care imports one file. Four homes get the published version.</h1>
+      <p class="lede">A labelled walkthrough of the real loop, not a testimonial.</p>
     </div>
-  </header>
-
-  <main id="main">
-    <header class="page-hero">
-      <div class="wrap">
-        <p class="example-banner">
-          <span>Example</span>
-          <span>Fictional care group</span>
-          <span>Not a customer</span>
-        </p>
-        <p class="crumb" style="margin-top:1.1rem"><a href="../index.html">Home</a> · Example</p>
-        <p class="kicker rise d1">Harbor Care Group</p>
-        <h1 class="rise d2">One register. Three homes. A safeguarding policy that has to be read.</h1>
-        <p class="lede rise d3">This is a worked example of a multi-site rollout. Harbor Care does not exist. The scores, staff counts, and proposals below are illustrative, so you can see how the product loop holds a shared policy.</p>
-      </div>
-    </header>
-
-    <section class="band" style="padding-top:0" aria-labelledby="sites-title">
-      <div class="wrap">
-        <p class="kicker">The group</p>
-        <h2 id="sites-title">Three sites, one policy owner at group.</h2>
-        <p class="lede">A nominated lead at group holds the register. Each home has a manager and a staff list on Employees, not as extra app seats.</p>
-        <div class="sites" style="margin-top:1.6rem">
-          <article>
-            <div>
-              <h3>Seaview House</h3>
-              <p>Residential, coastal site. Night team on the distribution.</p>
-            </div>
-            <p>Site manager on Employees</p>
-            <p class="meta">Distribution A</p>
-          </article>
-          <article>
-            <div>
-              <h3>Oak Lodge</h3>
-              <p>Smaller home. Same published version as the others.</p>
-            </div>
-            <p>Site manager on Employees</p>
-            <p class="meta">Distribution B</p>
-          </article>
-          <article>
-            <div>
-              <h3>The Willows</h3>
-              <p>Day services attached. Extra names on the staff CSV.</p>
-            </div>
-            <p>Site manager on Employees</p>
-            <p class="meta">Distribution C</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="review" aria-labelledby="doc-title">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">01 Review</p>
-          <h2 id="doc-title">Safeguarding Adults Policy</h2>
-          <p class="pull pull-copper">Score 7.2 / 10 on the draft they uploaded.</p>
-        </div>
-        <div>
-          <aside class="folio" aria-label="Example review of the safeguarding policy">
-            <span class="folio-ear" aria-hidden="true"></span>
-            <div class="folio-head">
-              <div>
-                <div class="folio-title">Safeguarding Adults Policy</div>
-                <p class="folio-meta">
-                  <span>Draft</span>
-                  <span>Policy</span>
-                  <span>Folder: Group / Safeguarding</span>
-                </p>
-              </div>
-              <div class="stamp" style="width:6.2rem;height:6.2rem;transform:rotate(-7deg)">
-                <span><strong>7.2</strong><small>score / 10</small></span>
-              </div>
-            </div>
-            <ul class="notes">
-              <li><b>Fidelity</b><span>Referral times still cite an old local authority number.</span></li>
-              <li><b>Completeness</b><span>No section for agency staff who work across the three homes.</span></li>
-              <li><b>Mechanics</b><span>Long sentences in the escalation appendix.</span></li>
-              <li><b>Style</b><span>Seaview House is named. The other two sites are not.</span></li>
-            </ul>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="plan" aria-labelledby="plan-title" style="padding-top:0">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">02 Improvement plan</p>
-          <h2 id="plan-title">Four proposals. Three accepted. One rejected.</h2>
-        </div>
-        <div>
-          <table class="ledger">
-            <thead>
-              <tr>
-                <th scope="col">Proposal</th>
-                <th scope="col">Decision</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Replace the outdated referral number and add the current duty desk path.</td>
-                <td class="num">Accepted</td>
-              </tr>
-              <tr>
-                <td>Add a short section for agency and bank staff who move between homes.</td>
-                <td class="num">Accepted</td>
-              </tr>
-              <tr>
-                <td>Rewrite the escalation appendix into numbered steps.</td>
-                <td class="num">Accepted</td>
-              </tr>
-              <tr>
-                <td>Insert a group-wide tone guide in the opening.</td>
-                <td class="num">Rejected</td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="meta" style="margin-top:0.9rem">Rejected because the opening already points at the group style guide. The plan does not force the extra paragraph.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="publish" aria-labelledby="publish-title">
-      <div class="wrap spread">
-        <div>
-          <p class="kicker">03 Publish</p>
-          <h2 id="publish-title">Version 2, classified, on the timeline.</h2>
-        </div>
-        <div class="copy">
-          <p>The accepted proposals save as version 2. Group publishes it. The Timeline shows version created, then version published. Shares stay with the policy lead and the three site managers. Export can pull a branded PDF for the inspector’s pack, and Excel if they want the change report.</p>
-          <table class="ledger" style="margin-top:1.2rem">
-            <thead>
-              <tr>
-                <th scope="col">Record</th>
-                <th scope="col">State</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Version</td>
-                <td>2 · Published</td>
-              </tr>
-              <tr>
-                <td>Score after the plan</td>
-                <td class="num">8.6 / 10</td>
-              </tr>
-              <tr>
-                <td>Classification</td>
-                <td>Set on the published copy</td>
-              </tr>
-              <tr>
-                <td>Folder</td>
-                <td>Group / Safeguarding</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="band" id="distribute" aria-labelledby="dist-title" style="padding-top:0">
-      <div class="wrap">
-        <p class="kicker">04 Distribute</p>
-        <h2 id="dist-title">One published file. Three distributions.</h2>
-        <p class="lede">Employees at each home are on the staff register. They are not extra Users. Each site gets its own distribution of the same version 2, so acknowledgements can be read by home.</p>
-        <table class="ledger" style="margin-top:1.6rem">
-          <thead>
-            <tr>
-              <th scope="col">Distribution</th>
-              <th scope="col">Who</th>
-              <th scope="col">What you would look for</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Seaview House</td>
-              <td>Site manager, day team, night team</td>
-              <td>Acknowledgements against version 2</td>
-            </tr>
-            <tr>
-              <td>Oak Lodge</td>
-              <td>Site manager and staff list</td>
-              <td>Same version, separate list</td>
-            </tr>
-            <tr>
-              <td>The Willows</td>
-              <td>Site manager, day services, bank names from CSV</td>
-              <td>Agency staff included on Employees</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="copy" style="margin-top:1.4rem">If group publishes version 3 later, signatures can be invalidated on the timeline. Then you distribute again. That is the point of the loop: the file in the homes matches the file in the register.</p>
-      </div>
-    </section>
-
-    <section class="band-ink band">
-      <div class="wrap">
-        <p class="kicker">Again</p>
-        <h2>This is an example, not a case study.</h2>
-        <p>Harbor Care, the three homes, the scores, and the proposal list were written for this page. They are not a live customer. If you want the same shape for a real group, <a href="../book-a-demo.html" style="color:#e0a080">book a demo</a> and bring one policy.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="foot">
-    <div class="wrap foot-bar">
-      <div>© 2026 Foxdocs Limited · Jersey</div>
-      <div class="foot-links">
-        <a href="https://www.foxdocs.com/privacy" rel="noopener noreferrer">Privacy</a>
-        <a href="https://www.foxdocs.com/cookies" rel="noopener noreferrer">Cookies</a>
-        <a href="mailto:contact@foxdocs.com">contact@foxdocs.com</a>
-      </div>
+  </section>
+  <section>
+    <div class="wrap stack">
+      <article class="block"><h2>Import</h2><p>Head office uploads the 2019 safeguarding PDF. That is the starting file. Nothing is generated from a blank page.</p></article>
+      <article class="block"><h2>Overhaul</h2><p>The draft is not fit. An overhaul rewrites it against current guidance. The original stays in versions.</p></article>
+      <article class="block"><h2>Plan, then execute</h2><p>The improvement plan still wants a night-shift appendix and a shorter escalation box. The manager accepts those two and runs the plan. That cut is v2.</p></article>
+      <article class="block"><h2>Review on a cycle</h2><p>Ninety days later a review checks it still complies. Findings become v3. The live published file does not change until someone signs it off.</p></article>
+      <article class="block"><h2>Publish and distribute</h2><p>v3 is published, classified Internal, and sent to employees at all four homes. Acknowledgements are per site.</p></article>
     </div>
-  </footer>
-  <script src="../js/site.js"></script>
+  </section>
+</main>
+<footer><div class="wide foot"><div>© 2026 Foxdocs Limited · Jersey</div></div></footer>
+<script src="../js/site.js"></script>
 </body>
 </html>
